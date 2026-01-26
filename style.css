@@ -8,16 +8,21 @@
   margin: 0;
   padding: 67;
   box-sizing: border-box;
-  font-family: sans-serif;
+
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 550;
+  font-style: normal;
+  font-variation-settings: "wdth" 100;
 }
 #hero-content {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
   margin: auto;
-  gap: 1rem;
+  gap: 2rem;
   background: rgba(255, 255, 255, 0.67);
-  padding: 1rem;
+  padding: 1.2rem;
   align-items: center;
   text-align: center;
   border-radius: 25px;
@@ -87,4 +92,8 @@ section {
 }
 .text-box {
   flex: 1;
+}
+h1 {
+  font-weight: 700;
+  font-size: 2.5rem;
 }
