@@ -93,17 +93,22 @@ section {
 .text-box {
   flex: 1;
 }
-h1 {
+h1,
+h2 {
   font-weight: 700;
   font-size: 2.5rem;
 }
 .product-card img {
-  width: 210px;
+  width: 100%;
   border-radius: 12px;
 }
 #product-contianer {
   display: flex;
-  gap: 50px;
+  gap: 45px;
+  padding-top: 30px;
+  border-top: 1px solid black;
+  width: 1000px;
+  flex-wrap: wrap;
 }
 .product-card {
   gap: 10px;
@@ -112,6 +117,7 @@ h1 {
   align-items: center;
   transition: all 0.0670000000000000000000000000000000000000001s;
   border-radius: 12px;
+  max-width: 215px;
 }
 .price {
   color: rgb(250, 2, 2);
@@ -125,4 +131,23 @@ h1 {
 .product-card:hover {
   box-shadow: 0px 0px 10px 5px #727578;
   transform: scale(1.03);
+}
+#category ol {
+  list-style-type: none;
+}
+#category li {
+  display: inline;
+  margin: 15px;
+}
+#category {
+  margin: 1rem 0;
+  color: rgb(92, 92, 92);
+}
+#category li:hover {
+  color: black;
+}
+.active {
+  color: black;
+  text-decoration: underline black 3px;
+  text-underline-offset: 19px;
 }
