@@ -145,6 +145,7 @@ h2 {
 }
 #category li:hover {
   color: black;
+  cursor: pointer;
 }
 .active {
   color: black;
